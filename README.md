@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeet Arora | Hospitality Executive</title>
+    <style>
+        :root {
+            --gold: #c5a059;
+            --dark-blue: #1a2a3a;
+            --light-gray: #f4f4f4;
+            --white: #ffffff;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; color: #333; line-height: 1.6; }
+        header { background: var(--dark-blue); color: var(--white); padding: 60px 20px; text-align: center; border-bottom: 5px solid var(--gold); }
+        .container { max-width: 1000px; margin: auto; padding: 20px; }
+        h1 { margin: 0; font-size: 2.5em; letter-spacing: 2px; text-transform: uppercase; }
+        .tagline { font-style: italic; color: var(--gold); font-size: 1.2em; margin-top: 10px; }
+        .section { padding: 40px 0; border-bottom: 1px solid #ddd; }
+        .section-title { color: var(--dark-blue); border-left: 5px solid var(--gold); padding-left: 15px; margin-bottom: 25px; text-transform: uppercase; font-weight: bold; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: var(--light-gray); padding: 20px; border-radius: 8px; border-top: 3px solid var(--gold); }
+        .award { background: #fff9e6; border: 1px solid var(--gold); padding: 15px; text-align: center; font-weight: bold; margin-bottom: 20px; }
+        .contact-bar { background: var(--dark-blue); color: var(--white); text-align: center; padding: 20px; position: sticky; bottom: 0; }
+        .contact-bar a { color: var(--gold); text-decoration: none; margin: 0 15px; font-weight: bold; }
+        ul { list-style: none; padding: 0; }
+        li { margin-bottom: 10px; padding-left: 20px; position: relative; }
+        li::before { content: "•"; color: var(--gold); position: absolute; left: 0; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Jeet Arora</h1>
+    <div class="tagline">Global Hospitality Executive | Dual General Manager | MBA Finance</div>
+</header>
+
+<div class="container">
+    <div class="award">
+        🏆 First Canadian Recipient of the Marriott SABRE Award for Excellence (2018) [cite: 4]
+    </div>
+
+    <section class="section">
+        <div class="section-title">Executive Profile</div>
+        <p>Accomplished hospitality professional with over 25 years of global experience[cite: 3]. Currently serving as Dual Property General Manager for boutique hotels in Edmonton[cite: 3]. Recognized for driving operational excellence across world-class brands including Marriott, Hilton, and Jumeirah Group[cite: 5].</p>
+    </section>
+
+    <section class="section">
+        <div class="section-title">Professional Milestones</div>
+        <div class="grid">
+            <div class="card">
+                <h3>Dual General Manager</h3>
+                <p><strong>Varscona & Metterra Hotels</strong> (2024 - Present) [cite: 9]</p>
+                <ul>
+                    <li>Directing overall functioning of two luxury boutique properties[cite: 10].</li>
+                    <li>Managing retail/dining tenancy and property value enhancement[cite: 11, 12].</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Head of Operations</h3>
+                <p><strong>Erth Hotel (Army Officer Club)</strong> (2023 - 2024) [cite: 18]</p>
+                <ul>
+                    <li>Led operations for 600 rooms and 8 F&B outlets in Abu Dhabi[cite: 21].</li>
+                    <li>Operational Head for COP 28 UAE Leadership Pavilion[cite: 21].</li>
+                    <li>Managed budgets exceeding AED 300M[cite: 21].</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>General Manager</h3>
+                <p><strong>DoubleTree Hilton & Westin</strong> (2019 - 2023) [cite: 40, 55]</p>
+                <ul>
+                    <li>Stabilized operations and financial health post-pandemic[cite: 41, 44].</li>
+                    <li>Managed Western Canada's largest convention center[cite: 56].</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-title">Education & Expert Certifications</div>
+        <div class="grid" style="grid-template-columns: 1fr 1fr;">
+            <div>
+                <p><strong>MBA - Finance</strong> [cite: 48, 49]</p>
+                <p><strong>B.Comm & Diploma in Hospitality</strong> [cite: 50, 51]</p>
+            </div>
+            <div>
+                <ul>
+                    <li>Certified Food & Beverage Executive (CFBE) [cite: 32, 33]</li>
+                    <li>Certified Rooms Division Executive (CRDE) [cite: 36]</li>
+                    <li>WSET Level 2 Certification [cite: 27]</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="contact-bar">
+    <span>📍 Edmonton, Canada</span> | 
+    <a href="mailto:jeet.arora@gmail.com">jeet.arora@gmail.com</a> | 
+    <a href="tel:+15879908368">+1 587 990 8368</a> [cite: 23, 24]
+</div>
+
+</body>
+</html>
